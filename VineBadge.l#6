@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -242,6 +242,22 @@
 <connect gate="G$2" pin="PB2(CKOUT/OC0A/OC1B/MISO/INT0/PCINT10)" pad="14"/>
 <connect gate="G$2" pin="PB3(RESET/PCINT11)" pad="13"/>
 <connect gate="G$2" pin="VCC" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AA_BATT">
+<gates>
+<gate name="G$1" symbol="AA_BATT" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="AA_BATT">
+<connects>
+<connect gate="G$1" pin="NEG1" pad="P$3 P$4"/>
+<connect gate="G$1" pin="POS1" pad="P$1 P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -17363,7 +17363,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="MBRA340T3" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
 <part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$4" library="VineBadge" deviceset="SMT_DPDT" device=""/>
+<part name="ON/OFF" library="VineBadge" deviceset="SMT_DPDT" device="" value="ON/OFF"/>
 </parts>
 <sheets>
 <sheet>
@@ -17569,7 +17569,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <instance part="+3V3" gate="G$1" x="45.72" y="10.16" smashed="yes" rot="R180">
 <attribute name="VALUE" x="48.26" y="15.24" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$4" gate="G$1" x="109.22" y="129.54" smashed="yes">
+<instance part="ON/OFF" gate="G$1" x="109.22" y="129.54" smashed="yes">
 <attribute name="NAME" x="121.92" y="127" size="1.778" layer="94"/>
 <attribute name="VALUE" x="121.92" y="124.46" size="1.778" layer="94"/>
 </instance>
@@ -17982,7 +17982,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="POS1"/>
 <wire x1="119.38" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
+<pinref part="ON/OFF" gate="G$1" pin="P$2"/>
 <wire x1="109.22" y1="104.14" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -17998,7 +17998,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
+<pinref part="ON/OFF" gate="G$1" pin="P$1"/>
 <wire x1="101.6" y1="124.46" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
