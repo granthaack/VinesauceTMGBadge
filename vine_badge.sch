@@ -17816,9 +17816,11 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="210.82" y1="30.48" x2="266.7" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="30.48" x2="276.86" y2="30.48" width="0.1524" layer="91"/>
 <junction x="266.7" y="30.48"/>
-<wire x1="276.86" y1="30.48" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="30.48" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
 <junction x="276.86" y="30.48"/>
 <pinref part="LED25" gate="G$1" pin="C"/>
+<wire x1="297.18" y1="30.48" x2="307.34" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="30.48" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="38.1" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="LED26" gate="G$1" pin="A"/>
 <wire x1="337.82" y1="38.1" x2="337.82" y2="30.48" width="0.1524" layer="91"/>
@@ -17835,14 +17837,12 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
 <junction x="200.66" y="30.48"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
 <pinref part="LED13" gate="G$1" pin="C"/>
 <wire x1="297.18" y1="35.56" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="LED14" gate="G$1" pin="A"/>
 <wire x1="307.34" y1="35.56" x2="307.34" y2="30.48" width="0.1524" layer="91"/>
+<junction x="297.18" y="30.48"/>
+<junction x="307.34" y="30.48"/>
 </segment>
 </net>
 <net name="N$5" class="0">
