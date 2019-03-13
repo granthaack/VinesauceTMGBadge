@@ -175,10 +175,10 @@
 <wire x1="26" y1="8" x2="26" y2="-8" width="0.127" layer="21"/>
 <wire x1="26" y1="-8" x2="-26" y2="-8" width="0.127" layer="21"/>
 <wire x1="-26" y1="-8" x2="-26" y2="8" width="0.127" layer="21"/>
-<text x="0" y="0" size="1.27" layer="25" font="vector" align="center">AA Battery</text>
-<text x="-10" y="0.5" size="1.27" layer="25" font="vector" rot="R90" align="center">POS+
+<text x="0" y="0" size="1.27" layer="25" font="vector" ratio="20" align="center">AA Battery</text>
+<text x="-10" y="0.5" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="center">POS+
 (Has Bump)</text>
-<text x="10.5" y="0.5" size="1.27" layer="25" font="vector" rot="R90" align="center">NEG-
+<text x="10.5" y="0.5" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="center">NEG-
 (Flat Side)</text>
 </package>
 </packages>
@@ -217,6 +217,26 @@
 <wire x1="10.16" y1="2.54" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <text x="-10.16" y="0" size="1.778" layer="94">AA Battery</text>
 </symbol>
+<symbol name="SMT_DPDT">
+<pin name="P$1" x="-7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$2" x="0" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$3" x="7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$4" x="7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="P$5" x="0" y="17.78" length="middle" rot="R270"/>
+<pin name="P$6" x="-7.62" y="17.78" length="middle" rot="R270"/>
+<wire x1="15.24" y1="12.7" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="12.7" x2="-15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="0" x2="15.24" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="12.7" y="-2.54" size="1.778" layer="94">&gt;NAME</text>
+<text x="12.7" y="-5.08" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ATTINY20">
@@ -242,6 +262,22 @@
 <connect gate="G$2" pin="PB2(CKOUT/OC0A/OC1B/MISO/INT0/PCINT10)" pad="14"/>
 <connect gate="G$2" pin="PB3(RESET/PCINT11)" pad="13"/>
 <connect gate="G$2" pin="VCC" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AA_BATT">
+<gates>
+<gate name="G$1" symbol="AA_BATT" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="AA_BATT">
+<connects>
+<connect gate="G$1" pin="NEG1" pad="P$3 P$4"/>
+<connect gate="G$1" pin="POS1" pad="P$1 P$2"/>
 </connects>
 <technologies>
 <technology name=""/>

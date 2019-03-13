@@ -76,10 +76,10 @@
 <package name="QFN20" urn="urn:adsk.eagle:footprint:3428/1" locally_modified="yes">
 <description>&lt;b&gt;ES Package, 20-Contact QFN with Exposed Thermal Pad&lt;/b&gt;&lt;p&gt;
 &lt;a href="http://www.allegromicro.com/en/Products/Part_Numbers/3906/3906.pdf"&gt; Data sheet &lt;/a&gt;</description>
-<wire x1="-1.8984" y1="-1.8984" x2="1.8984" y2="-1.8984" width="0.2032" layer="51"/>
-<wire x1="1.8984" y1="-1.8984" x2="1.8984" y2="1.8984" width="0.2032" layer="51"/>
-<wire x1="1.8984" y1="1.8984" x2="-1.8984" y2="1.8984" width="0.2032" layer="51"/>
-<wire x1="-1.8984" y1="1.8984" x2="-1.8984" y2="-1.8984" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.2032" layer="51"/>
 <wire x1="-1.8984" y1="1.8984" x2="-1.8984" y2="1.3016" width="0.2032" layer="21"/>
 <wire x1="-1.3016" y1="1.8984" x2="-1.8984" y2="1.8984" width="0.2032" layer="21"/>
 <wire x1="-1.8984" y1="-1.8984" x2="-1.3016" y2="-1.8984" width="0.2032" layer="21"/>
@@ -88,27 +88,27 @@
 <wire x1="1.3016" y1="-1.8984" x2="1.8984" y2="-1.8984" width="0.2032" layer="21"/>
 <wire x1="1.8984" y1="1.8984" x2="1.3016" y2="1.8984" width="0.2032" layer="21"/>
 <wire x1="1.8984" y1="1.3016" x2="1.8984" y2="1.8984" width="0.2032" layer="21"/>
-<smd name="1" x="-2.05" y="1" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-2.05" y="0.5" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-2.05" y="0" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-2.05" y="-0.5" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="5" x="-2.05" y="-1" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
-<smd name="EXP" x="0" y="0" dx="2.45" dy="2.45" layer="1" stop="no" cream="no"/>
-<smd name="6" x="-1" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="7" x="-0.5" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="8" x="0" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="9" x="0.5" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="10" x="1" y="-2.05" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="11" x="2.05" y="-1" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="12" x="2.05" y="-0.5" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="13" x="2.05" y="0" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="14" x="2.05" y="0.5" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="15" x="2.05" y="1" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
-<smd name="16" x="1" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="17" x="0.5" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="18" x="0" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="19" x="-0.5" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
-<smd name="20" x="-1" y="2.05" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="1" x="-1.75" y="1" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="2" x="-1.75" y="0.5" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-1.75" y="0" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="4" x="-1.75" y="-0.5" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="5" x="-1.75" y="-1" dx="0.95" dy="0.3" layer="1" stop="no" cream="no"/>
+<smd name="EXP" x="0" y="0" dx="1.55" dy="1.55" layer="1" stop="no" cream="no"/>
+<smd name="6" x="-1" y="-1.75" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="7" x="-0.5" y="-1.75" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="8" x="0" y="-1.75" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="9" x="0.5" y="-1.75" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="10" x="1" y="-1.75" dx="0.95" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="11" x="1.75" y="-1" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="12" x="1.75" y="-0.5" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="13" x="1.75" y="0" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="14" x="1.75" y="0.5" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="15" x="1.75" y="1" dx="0.95" dy="0.3" layer="1" rot="R180" stop="no" cream="no"/>
+<smd name="16" x="1" y="1.75" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="17" x="0.5" y="1.75" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="18" x="0" y="1.75" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="19" x="-0.5" y="1.75" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="20" x="-1" y="1.75" dx="0.95" dy="0.3" layer="1" rot="R270" stop="no" cream="no"/>
 <text x="-2.5" y="3" size="1.27" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-2.5" y="-4" size="1.27" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <rectangle x1="-2.575" y1="0.825" x2="-1.525" y2="1.175" layer="29"/>
